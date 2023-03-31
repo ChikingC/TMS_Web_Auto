@@ -1,0 +1,40 @@
+2023-03-31 15:55:17,143 - BasePgae - INFO - Load_page:https://test-multi-hq.hero-cloud.cn/accounts/hqqccn1/eng/tms/operation/current_view
+2023-03-31 15:55:47,711 - BasePgae - INFO - Load_page:https://test-multi-hq.hero-cloud.cn/accounts/hqqccn1/eng/tms/operation/current_view
+2023-03-31 15:56:02,231 - BasePgae - INFO - Load_page:https://test-multi-hq.hero-cloud.cn/accounts/hqqccn1/eng/tms/operation/current_view
+2023-03-31 15:56:29,261 - BasePgae - INFO - Load_page:https://test-multi-hq.hero-cloud.cn/accounts/hqqccn1/eng/tms/operation/current_view
+2023-03-31 15:56:42,836 - BasePgae - INFO - The element looked up is xpath//tr[ @ id = 'adults']/td[3]/div/div 
+2023-03-31 15:56:48,189 - BasePgae - INFO - The element looked up is xpath//div[@class=' css-11unzgr']//div[5] 
+2023-03-31 15:56:48,235 - BasePgae - INFO - The element looked up is xpath//div[@aria-label='Tue Mar 28 2023'] 
+2023-03-31 15:56:48,316 - BasePgae - INFO - The element looked up is idmemberNo 
+2023-03-31 15:56:49,641 - BasePgae - INFO - The element looked up is xpath//*[@id="member_no"]/td[3]/div/div[2]/div 
+2023-03-31 15:56:49,708 - BasePgae - ERROR - NoSuchElementException: Message: invalid selector: Unable to locate an element with the xpath expression //button[text()='Save Button']) because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[text()='Save Button'])' is not a valid XPath expression.
+  (Session info: chrome=111.0.5563.111)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x0091DCE3]
+	(No symbol) [0x008B39D1]
+	(No symbol) [0x007C4DA8]
+	(No symbol) [0x007C76FB]
+	(No symbol) [0x007C75D0]
+	(No symbol) [0x007C7850]
+	(No symbol) [0x007EFDF8]
+	(No symbol) [0x007F03AB]
+	(No symbol) [0x0081EE62]
+	(No symbol) [0x0080AF14]
+	(No symbol) [0x0081D57C]
+	(No symbol) [0x0080ACC6]
+	(No symbol) [0x007E6F68]
+	(No symbol) [0x007E80CD]
+	GetHandleVerifier [0x00B93832+2506274]
+	GetHandleVerifier [0x00BC9794+2727300]
+	GetHandleVerifier [0x00BCE36C+2746716]
+	GetHandleVerifier [0x009C6690+617600]
+	(No symbol) [0x008BC712]
+	(No symbol) [0x008C1FF8]
+	(No symbol) [0x008C20DB]
+	(No symbol) [0x008CC63B]
+	BaseThreadInitThunk [0x7583FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x770E7A4E+286]
+	RtlGetAppContainerNamedObjectPath [0x770E7A1E+238]
+
