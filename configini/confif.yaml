@@ -1,0 +1,11 @@
+image_set_loader:
+  data:
+    url:
+    host:
+      - 244:
+          - 233
+          - 233
+      - 244:
+          - 233
+          - 233
+

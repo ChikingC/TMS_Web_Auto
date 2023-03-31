@@ -1,0 +1,6 @@
+2023-03-28 20:20:23,698 - BasePgae - INFO - Load_page:https://test-multi-hq.hero-cloud.cn/accounts/hqqccn1/eng/tms/operation/current_view
+2023-03-28 20:20:39,774 - BasePgae - INFO - The element looked up is xpath//tr[ @ id = 'adults']/td[3]/div/div 
+2023-03-28 20:20:45,049 - BasePgae - INFO - The element looked up is xpath//div[@class=' css-11unzgr']//div[5] 
+2023-03-28 20:20:45,102 - BasePgae - INFO - The element looked up is xpath//div[@aria-label='Tue Mar 28 2023'] 
+2023-03-28 20:20:45,134 - BasePgae - INFO - The element looked up is idmemberNo 
+2023-03-28 20:20:46,224 - BasePgae - INFO - The element looked up is xpath//*[@id="member_no"]/td[3]/div/div[2]/div 

@@ -1,0 +1,37 @@
+2023-03-28 22:36:27,513 - BasePgae - INFO - Load_page:https://test-multi-hq.hero-cloud.cn/accounts/hqqccn1/eng/tms/operation/current_view
+2023-03-28 22:36:41,284 - BasePgae - INFO - The element looked up is xpath//tr[ @ id = 'adults']/td[3]/div/div 
+2023-03-28 22:36:46,350 - BasePgae - INFO - The element looked up is xpath//div[@class=' css-11unzgr']//div[5] 
+2023-03-28 22:36:46,397 - BasePgae - INFO - The element looked up is xpath//div[@aria-label='Tue Mar 28 2023'] 
+2023-03-28 22:36:46,425 - BasePgae - INFO - The element looked up is idmemberNo 
+2023-03-28 22:36:47,514 - BasePgae - INFO - The element looked up is xpath//*[@id="member_no"]/td[3]/div/div[2]/div 
+2023-03-28 22:36:47,583 - BasePgae - ERROR - NoSuchElementException: Message: invalid selector: Unable to locate an element with the xpath expression //button[text()='Save Button']) because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[text()='Save Button'])' is not a valid XPath expression.
+  (Session info: chrome=111.0.5563.111)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00A0DCE3]
+	(No symbol) [0x009A39D1]
+	(No symbol) [0x008B4DA8]
+	(No symbol) [0x008B76FB]
+	(No symbol) [0x008B75D0]
+	(No symbol) [0x008B7850]
+	(No symbol) [0x008DFDF8]
+	(No symbol) [0x008E03AB]
+	(No symbol) [0x0090EE62]
+	(No symbol) [0x008FAF14]
+	(No symbol) [0x0090D57C]
+	(No symbol) [0x008FACC6]
+	(No symbol) [0x008D6F68]
+	(No symbol) [0x008D80CD]
+	GetHandleVerifier [0x00C83832+2506274]
+	GetHandleVerifier [0x00CB9794+2727300]
+	GetHandleVerifier [0x00CBE36C+2746716]
+	GetHandleVerifier [0x00AB6690+617600]
+	(No symbol) [0x009AC712]
+	(No symbol) [0x009B1FF8]
+	(No symbol) [0x009B20DB]
+	(No symbol) [0x009BC63B]
+	BaseThreadInitThunk [0x754EFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77637A4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77637A1E+238]
+
