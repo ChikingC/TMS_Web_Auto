@@ -1,10 +1,12 @@
 import unittest
 import os
+import sys
 import time
 from datetime import datetime
-import HTMLReport
 from HTMLTestRunner.HTMLTestRunner import HTMLTestRunner
 
+print(os.path.dirname(os.path.abspath(__file__)) + '/../')
+sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/../')
 test_dir = "../TestCase"
 
 now_time = str(datetime.now().strftime("%Y-%m-%d")) + '-'+str(time.time())
